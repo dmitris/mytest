@@ -6,7 +6,7 @@ import (
 )
 
 func TestType(t *testing.T) {
-	if tp := fmt.Sprintf("%T", constBad); tp != "int" {
+	if tp := fmt.Sprintf("%T", ConstBad); tp != "int" {
 		t.Errorf("Wrong type - got %s, want 'int'", tp)
 	}
 }
