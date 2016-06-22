@@ -2,6 +2,6 @@
 package mytest
 
 const (
-	constOK  uint8 = 255
+	foo string = "foo"
 	ConstBad       = 256 // max uint8 + 1
 )
